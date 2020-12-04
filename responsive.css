@@ -1,0 +1,209 @@
+@media only screen and (max-width: 700px) {
+    header {
+        width:500px;
+        height:800px;
+        margin:auto;
+        display:block;
+        box-sizing:border-box;
+        padding:20px;
+        padding-top:50px;
+        position:relative;
+        
+    }
+    header .logo {
+        margin-left:130px;
+        font-size:50px;
+    }
+    header .menu {
+        left:20%;
+        top:20%;
+    }
+    ul.menu-nav {
+        display:block;
+    }
+    ul.menu-nav li {
+        width:200px;
+        height:auto;
+        margin-top:10px;
+        border:.1px solid rgba(0, 0, 0, 0.219);
+    }
+    ul.menu-nav li:hover {
+        background-color:#16133D;
+        color:white;
+    }
+    ul.menu-nav li:hover a {
+        color:white;
+    }
+    ul.menu-nav li a {
+        
+        font-size:37px;
+    }
+    /* Buttons */
+    header .buttons {
+        left:25%;
+        top:57%;
+        display:block;
+    }
+    .buttons .btn {
+        width:200px;
+        margin-top:10px;
+    }
+    
+    /* ARTICLE */
+
+    article {
+        width:500px;
+        height:900px;
+        display:block;
+        box-sizing:border-box;
+        text-align:center;
+    }
+    article p {
+        width:500px;
+    }
+    .text  
+    .buttons-2 {
+        width:220px;
+        height:150px;
+        padding-top:20px;
+        display:block;
+        margin-left:20px;
+        margin:auto;
+    }
+    .buttons-2 .btn-2 {
+        margin-top:10px;
+    }
+    
+    article img {
+        width:490px;
+        height:400px;
+        margin-top:0;
+    }
+
+    /* MAIN */
+    main {
+        width:500px;
+        height:1170px;
+        box-sizing:border-box;
+        padding-left:70px;
+        margin-top:100px;
+    }
+    main .main-text p {
+        width:370px;
+    }
+    main .main-cards {
+        width:500px;
+        display:block;  
+    }
+    .main-cards .m-card {
+        margin-top:20px;
+    }
+
+    /* Section */
+
+    section {
+        width:550px;
+        height:1300px;
+        margin-top:50px;
+    }
+    section .section-cards {
+        display:block;
+    }
+    .section-cards .s-card-1 {
+        margin-top:20px;
+    }
+    .section-cards .s-card-2 {
+        margin-top:20px;
+    }
+    .section-cards p {
+        font-size:37px;
+    }
+
+
+    /* Plans */
+
+    .plans {
+        width:550px;
+        height:1700px;
+        margin-top:100px;
+    }
+    .plans .plans-text p {
+        width:450px;
+    }
+    .plans .plans-cards {
+        display:block;
+        width:500px;
+        
+    }
+    .plans-cards .p-card {
+        margin:auto;
+        margin-top:20px;
+    }
+    
+    /* Banner */
+
+    .banner {
+        margin-top:50px;
+        width:550px;
+        height:500px;
+    }
+    .banner .banner-text {
+        width:550px;
+        margin:auto;
+    }
+
+    .banner .banner-buttons {
+        width:250px;
+        display:block;
+        margin:auto;
+        margin-top:-100px;
+    }
+    .banner-buttons .banner-btn {
+        margin-top:20px;
+        width:250px;
+        height:90px;
+        box-sizing:border-box;
+        padding-top:30px;
+        border-radius:50px;
+    }
+    .banner-btn a {
+        font-size:27px;
+    }
+
+
+    /* Footer */
+    footer {
+        width:550px;
+        height:1111px;
+        display:block;
+        
+    }
+    
+    footer .content-1 {
+        margin:auto;
+        font-size:14px;
+    }
+
+    footer .content-2 {
+        margin:auto;
+        width:390px;
+        font-size:21px;
+
+    }
+
+    footer .content-3 {
+        width:390px;
+        font-size:21px;
+        margin-left:111px;
+    }
+
+    
+    /* Mini Footer */
+
+    .mini-footerr {
+        width:550px;
+        height: 70px;
+        font-size:17px;
+    }
+    
+  } /* Media Query */
